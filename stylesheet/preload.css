@@ -20,25 +20,26 @@
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
-  }
-  
-  @-webkit-keyframes animate-preloader {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+    -webkit-animation: animate-preloader 2s ease-in-out infinite;
+    animation: animate-preloader 2s ease-in-out infinite;
   }
   
   @keyframes animate-preloader {
     0% {
       transform: rotate(0deg);
+      border: 6px solid #0563bb;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+    }
+    50% {
+      transform: rotate(360deg);
+      border-color: #0778e2;
     }
     100% {
-      transform: rotate(360deg);
+      transform: rotate(720deg);
+      border: 6px solid #0563bb;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
     }
   }
   
