@@ -38,6 +38,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
+  transition: height 100s;
 }
 a {
   color: #0563bb;
