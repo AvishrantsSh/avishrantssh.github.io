@@ -99,11 +99,15 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     padding-left: 160px;
   }
+  #hero .container{
+    margin-left: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -210,6 +214,9 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+.section-title h4{
+  line-height: 1.8;
 }
 
 /*--------------------------------------------------------------
@@ -325,6 +332,7 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  display: block;
 }
 
 .portfolio #portfolio-flters {
@@ -486,17 +494,15 @@ section {
   margin-right: auto;
   background-color: white;
   border-radius: 20px;
+  max-width: 100%;
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
-  background-color: #444;
-}
+
 .contact .info {
   width: 100%;
-  color: white;
 }
 
 .contact .info i {
@@ -517,18 +523,14 @@ section {
 
 .contact .info p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .info a{
-  color: white;
-}
-
-.info a:hover{
   color: #0563bb;
 }
 
-.contact .info .email i:hover, .contact .info .address i:hover {
+.contact i:hover, .contact i:hover {
   background: #0563bb;
   color: #fff;
 }

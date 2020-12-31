@@ -35,7 +35,13 @@
       transform: rotate(360deg);
       border-color: #0778e2;
     }
-    100% {
+    90% {
+      transform: rotate(720deg);
+      border: 6px solid #0563bb;
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+    }
+    100%{
       transform: rotate(720deg);
       border: 6px solid #0563bb;
       border-top-color: #fff;
