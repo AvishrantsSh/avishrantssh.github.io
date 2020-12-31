@@ -613,4 +613,7 @@ section {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
+  .row{
+    margin: 0;
+  }
 }
