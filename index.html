@@ -36,6 +36,13 @@
     <script>
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
+        var bg = $("#img-holder");
+        function resizeBackground() {
+            bg.height($(window).height());
+        }
+
+        $(window).resize(resizeBackground);
+        resizeBackground();
     </script>
 </head>
 

@@ -29,12 +29,11 @@ body {
 
 #img-holder{
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  background: url("../assets/img/bg.svg.jpeg") top right no-repeat;
-  background-position: center;
+  background: url("../assets/img/bg.svg.jpeg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
