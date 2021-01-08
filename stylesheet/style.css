@@ -260,6 +260,7 @@ section {
 .aboutme h5{
   margin-top: 20px;
   margin-bottom: 0;
+  font-weight: bolder;
 }
 .about .content h3 {
   font-weight: 700;
