@@ -649,4 +649,10 @@ section {
   .row{
     margin: 0;
   }
+  .gayab{
+    display: none!important;
+  }
+  .straight{
+    margin-top: 10px!important;
+  }
 }
