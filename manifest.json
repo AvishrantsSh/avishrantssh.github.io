@@ -1,0 +1,22 @@
+{
+    "name": "Portfolio",
+    "short_name": "Portfolio",
+    "start_url": "/",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#493174",
+    "description": "Portfolio Website@Avishrant Sharma",
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    
+    "icons": [
+        {
+          "src": "/assets/img/icon_colour.png",
+          "type": "image/png",
+          "sizes": "512x512",
+          "purpose": "maskable any"
+        }         
+      ]
+}

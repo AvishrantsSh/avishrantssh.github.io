@@ -11,7 +11,26 @@
     <meta name="description" content="Avishrant Sharma Portfolio">
     <meta name="keywords" content="Avishrant, AvishrantSh, Avishrants, Portfolio, NITH">
     <meta name="author" content="Avishrant Sharma">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0A0302">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Portfolio">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<!-- Service Worker Registration -->
+	<script type="text/javascript">
+		// Initialize the service worker
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/serviceworker.js').then(function (registration) {
+				// Registration was successful
+				console.log('portfolio-progressive-web-app: ServiceWorker registration successful');
+			}, function (err) {
+				// registration failed :(
+				console.log('portfolio-progressive-web-app: ServiceWorker registration failed: ', err);
+			});
+		}
 
+    </script> 
+    
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
