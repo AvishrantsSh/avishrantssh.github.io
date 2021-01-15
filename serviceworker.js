@@ -1,6 +1,7 @@
-const CACHE = 'cache_port';
+const CACHE = 'cache_port5';
 const filestoCache = [
                       '/assets/img/favicon.png',
+                      '/assets/img/logo.png',
                       '/stylesheet/extern/bootstrap.min.css',
                       '/assets/vendor/icofont/icofont.min.css',
                       '/assets/vendor/boxicons/css/boxicons.min.css',

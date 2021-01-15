@@ -13,7 +13,7 @@
     
     "icons": [
         {
-          "src": "/assets/img/icon_colour.png",
+          "src": "/assets/img/logo.png",
           "type": "image/png",
           "sizes": "512x512",
           "purpose": "maskable any"
