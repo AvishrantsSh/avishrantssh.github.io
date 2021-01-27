@@ -285,6 +285,22 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+.roll h5{
+  font-weight: 500;
+  padding: 10px;
+}
+.roll h5::after{
+  content: '';
+  display: block;
+  margin-top: 10px;
+  width: 20%;
+  height: 1px;
+  background: rgba(03,66,200,0.8);
+  bottom: 0;
+  position: relative;
+  left: 40%;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -654,4 +670,15 @@ section {
   .straight{
     margin-top: 10px!important;
   }
+  hr{
+    margin-top: 0.3rem !important;
+    margin-bottom: 0.3rem !important;
+  }
+  p{
+    font-size: 17px;
+  }
+  .section-title h2{
+    font-size:26px;
+  }
+ 
 }

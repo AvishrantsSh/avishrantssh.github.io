@@ -1,4 +1,4 @@
-const CACHE = 'cache_port5';
+const CACHE = 'cache_portv1';
 const filestoCache = [
                       '/assets/img/favicon.png',
                       '/assets/img/logo.png',
