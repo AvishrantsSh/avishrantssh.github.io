@@ -288,6 +288,7 @@ section {
 
 .roll h5{
   font-weight: 500;
+  line-height: 1.5;
   padding: 10px;
 }
 .roll h5::after{
@@ -340,7 +341,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -680,5 +681,7 @@ section {
   .section-title h2{
     font-size:26px;
   }
- 
+  .roll h5{
+    font-size: px;
+  }
 }
