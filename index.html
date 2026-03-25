@@ -290,10 +290,9 @@
                   <span class="text-xs text-muted">Aug 2024 – Present</span>
                 </div>
                 <ul class="text-muted text-sm space-y-3 leading-relaxed">
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Led a team of 7 backend engineers — owning architecture decisions, code reviews, and release planning across multiple product tracks.</li>
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Designed Celery-based ETL pipelines that process 80K+ investment accounts daily across incompatible custodian formats, replacing a largely manual ingestion workflow.</li>
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Refactored a monolithic codebase into modular Django applications, improving deployment isolation and reducing the overhead of onboarding new institutional clients.</li>
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Coordinated with banks and wealth managers on integration requirements — translating their API specs and auth flows into production-ready implementations.</li>
+                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Extended the core Django backend to run multi-tenant. The same codebase now drives shared SaaS infrastructure for 10K+ clients and spins up isolated stacks for 8+ enterprise customers who need their own deployments.</li>
+                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Refactored the monolith into a distributable Python library with Flask microservices around it. Clients get custom behaviour without forked codebases, and onboarding changes that used to take a month are done in a week.</li>
+                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Designed a multi-agent orchestration system in PydanticAI and FastAPI, layered on top of the RAG pipeline, running analytical workflows across Rs. 14,000+ crore in client portfolios.</li>
                 </ul>
               </div>
             </div>
@@ -304,13 +303,12 @@
               </div>
               <div>
                 <div class="flex flex-wrap items-baseline gap-x-3 gap-y-0.5 mb-3">
-                  <h3 class="text-white text-sm font-semibold">Software Engineer</h3>
-                  <span class="text-xs text-muted">May 2021 – Aug 2024</span>
+                  <h3 class="text-white text-sm font-semibold">Founding Engineer</h3>
+                  <span class="text-xs text-muted">May 2023 – Aug 2024</span>
                 </div>
                 <ul class="text-muted text-sm space-y-3 leading-relaxed">
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Joined as the founding backend engineer and built the core Django REST API layer that InvestEdge runs on — managing ₹10,000+ cr in client AUM.</li>
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Built a RAG-based portfolio intelligence feature using FastAPI, PydanticAI, and Celery — enabling relationship managers to query live portfolio data in natural language.</li>
-                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Wrote the data reconciliation layer for investment transactions across custodians with inconsistent formats, column conventions, and edge cases in numeric handling.</li>
+                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Rewrote the core REST API layer from scratch after repeated timeouts in production. Response times dropped from 4s to 200ms for the analytics queries the platform depends on.</li>
+                  <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Built the Celery-based ETL pipeline from nothing. It now ingests 80K+ investment accounts every day across custodians with incompatible schemas, inconsistent column names, and no common standard to lean on.</li>
                 </ul>
               </div>
             </div>
@@ -334,8 +332,8 @@
                   <span class="text-xs text-muted">2022 – Present</span>
                 </div>
                 <ul class="text-muted text-sm space-y-3 leading-relaxed">
-                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Mentoring GSoC contributors since 2022 — guiding students through the AboutCode codebase, license compliance tooling, and upstream collaboration practices.</li>
-                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Helping contributors scope projects, define milestones, and deliver patches accepted by the maintainer community.</li>
+                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Mentored contributors across 4 GSoC editions (2022–2025), helping them scope realistic projects, get comfortable in an unfamiliar codebase, and ship work that lands in main.</li>
+                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>A lot of the role is keeping contributors moving through the summer so the work doesn't quietly trail off before the finish line.</li>
                 </ul>
               </div>
             </div>
@@ -350,12 +348,32 @@
                   <span class="text-xs text-muted">2021</span>
                 </div>
                 <ul class="text-muted text-sm space-y-3 leading-relaxed">
-                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Designed a plugin architecture for Scancode.io allowing external license detection tools to register without modifying core.</li>
-                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Wrote GoLicense-Classifier in Python and Go as the reference implementation — 4× faster and 30% lower memory than the previous approach.</li>
+                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Designed the plugin architecture for Scancode.io so external license detection tools could register and run without touching core. GoLicense-Classifier was the reference implementation.</li>
+                  <li class="flex gap-2"><span class="text-emerald-400 shrink-0 mt-0.5">›</span>Came back as a mentor the following year, and the year after that, and the year after that. Still here.</li>
                 </ul>
               </div>
             </div>
 
+          </div>
+        </div>
+
+        <!-- ── Gap Inc. ── -->
+        <div>
+          <p class="text-xs text-muted uppercase tracking-widest font-semibold mb-5">Gap Inc.</p>
+          <div class="flex gap-5">
+            <div class="flex flex-col items-center shrink-0">
+              <div class="h-2.5 w-2.5 rounded-full border-2 border-accent bg-bg mt-1.5 shrink-0"></div>
+            </div>
+            <div>
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-0.5 mb-3">
+                <h3 class="text-white text-sm font-semibold">Software Engineer Intern</h3>
+                <span class="text-xs text-muted">May 2022 – Jul 2022</span>
+              </div>
+              <ul class="text-muted text-sm space-y-3 leading-relaxed">
+                <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Worked on Spring Boot APIs over Azure Management Platform to automate user provisioning, feeding an internal IAM dashboard used for access management across the org.</li>
+                <li class="flex gap-2"><span class="text-accent shrink-0 mt-0.5">›</span>Handled the Azure Active Directory integration for identity management, with role-based access control wired through on the backend.</li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -379,7 +397,7 @@
             </a>
           </div>
           <p class="text-muted text-sm leading-relaxed flex-1 mb-4">
-            License and copyright detection library in Python + Go. Built for Scancode.io — 4× faster and meaningfully lighter than what it replaced.
+            License expression and copyright detection for codebases, implemented as a hybrid Python + Go library. Ships as a plugin for Scancode.io and runs about 4× faster with a third less memory.
           </p>
           <div class="flex flex-wrap gap-2 mb-3">
             <span class="text-xs px-2.5 py-1 rounded-md bg-accent/10 text-accent">Python</span>
@@ -398,7 +416,7 @@
             </a>
           </div>
           <p class="text-muted text-sm leading-relaxed flex-1 mb-4">
-            Move Django model choices into the database. Add new options at runtime — no migration, no redeploy, no noise.
+            Runtime choices for Django models and forms, backed by the database. Add or update options without a migration or a redeploy.
           </p>
           <div class="flex flex-wrap gap-2 mb-3">
             <span class="text-xs px-2.5 py-1 rounded-md bg-accent/10 text-accent">Python</span>
@@ -411,18 +429,18 @@
         <div class="bg-surface border border-border rounded-xl p-6 hover:border-accent/50 transition-all duration-300 flex flex-col">
           <div class="flex items-start justify-between mb-3">
             <h3 class="text-white font-semibold text-sm">cas2json</h3>
-            <a href="https://github.com/AvishrantsSh/cas2json" target="_blank" rel="noreferrer"
+            <a href="https://github.com/BeyondIRR/cas2json" target="_blank" rel="noreferrer"
                class="text-muted hover:text-white transition-colors duration-200 shrink-0 ml-3" aria-label="View on GitHub">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
             </a>
           </div>
           <p class="text-muted text-sm leading-relaxed flex-1 mb-4">
-            Parses CAS statement PDFs into structured JSON. Written because the alternative was doing it by hand — runs in production at BeyondIRR.
+            Parses CAS statement PDFs and serialises them into structured Python objects. Handles CAMS, KFintech, and other registrar formats. Runs in production at BeyondIRR.
           </p>
           <div class="flex flex-wrap gap-2 mb-3">
             <span class="text-xs px-2.5 py-1 rounded-md bg-accent/10 text-accent">Python</span>
           </div>
-          <p class="text-xs text-muted">↓ 2,000+ downloads</p>
+          <p class="text-xs text-muted">↓ 6,000+ downloads</p>
         </div>
 
         <!-- python-pptx-stubs -->
@@ -435,7 +453,7 @@
             </a>
           </div>
           <p class="text-muted text-sm leading-relaxed flex-1 mb-4">
-            Type stubs for python-pptx, enabling static analysis with mypy and PyRight. Fills in the missing type annotations for a library that otherwise leaves your type checker guessing.
+            Type stubs for python-pptx. Fills in the missing annotations so mypy and PyRight can actually do their job when you're generating presentations programmatically.
           </p>
           <div class="flex flex-wrap gap-2 mb-3">
             <span class="text-xs px-2.5 py-1 rounded-md bg-accent/10 text-accent">Python</span>
